@@ -7,7 +7,6 @@ elsif speed > 60
 end
 else
    puts false
- end
 end
 
 def not_safe?(speed)
