@@ -1,9 +1,11 @@
 def unsafe?(speed)
 if speed < 40
    true
- end
-  if speed > 60
+ elsif
+elsif speed > 60
     true
+  else
+    false
   end
 end
 
