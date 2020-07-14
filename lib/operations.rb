@@ -1,7 +1,7 @@
 def unsafe?(speed)
 if speed < 40
  puts "true"
- 
+ elsif
 elsif speed > 60
   puts  "true"
 else
