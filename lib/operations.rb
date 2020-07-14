@@ -4,9 +4,10 @@ if speed < 40
  
 elsif speed > 60
   puts  "true"
-end
+  
 else
    puts "false"
+ end
 end
 
 def not_safe?(speed)
