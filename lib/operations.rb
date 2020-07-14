@@ -11,13 +11,13 @@ else
 end
 
 def not_safe?(speed)
-speed > 60 ? true : false
+speed = 60
 speed < 40 ? true : false
 end
 
 
 
-# if x > 2
+
 #   puts "x is greater than 2"
 # elsif x <= 2 and x!=0
 #   puts "x is 1"
